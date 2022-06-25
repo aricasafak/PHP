@@ -1,0 +1,24 @@
+{
+  "name": "php",
+  "version": "1.0.0",
+  "description": "This is a headless personal hobby project that you can do CRUD operations on campgrounds in the US.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "Safak Abdullah Arica",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0"
+  }
+}
