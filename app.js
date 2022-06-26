@@ -1,7 +1,11 @@
+require("./api/data/db.js");
 const express = require("express");
 const app = express();
 require("dotenv").config();
-const routes = require("./routes");
+const routes = require("./api/routes");
+
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
 
 app.use(routes);
 
